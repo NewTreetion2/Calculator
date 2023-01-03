@@ -1,4 +1,15 @@
-.btnSpace {
+.calculBtn {
   width: 100vw;
-  height: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.numberBtn {
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
