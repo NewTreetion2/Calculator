@@ -1,5 +1,7 @@
 # 리코일을 활용하여 계산기 제작
 
+<<<<<<< HEAD
+
 (npm install recoil or yarn install recoil)
 
 ## 공부목표
