@@ -5,7 +5,7 @@ import Button from "components/Button";
 import { useEffect, useState } from "react";
 
 const calculBtn = ["+", "-", "*", "/", "="];
-const numberBtn = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."];
+const numberBtn = ["9", "8", "7", "6", "5", "4", "3", "2", "1", ".", "0"];
 
 function ButtonSpace() {
   const [reset, setReset] = useState(true);
@@ -52,9 +52,12 @@ function ButtonSpace() {
             ></Button>
           );
         })}
-      </div>
-      <div>
-        <Button onClickHandler={() => setReset(!reset)} title="reset"></Button>
+        <div>
+          <Button
+            onClickHandler={() => setReset(!reset)}
+            title="reset"
+          ></Button>
+        </div>
       </div>
     </>
   );

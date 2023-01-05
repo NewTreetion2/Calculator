@@ -77,6 +77,12 @@ const calculator = selector({
         ...state,
         state: "total",
       });
+      if (state.state === "A") {
+        set(numbers, {
+          ...number,
+          total: Number(number.a),
+        });
+      }
       if (state.type === "+") {
         set(numbers, {
           ...number,
